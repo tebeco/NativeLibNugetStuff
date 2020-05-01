@@ -4,8 +4,5 @@ bin/
 obj/
 nupkgs/
 *.user
-
-native/target/
-NativeLibNugetStuff.Wrapper/native.dll
+*.dll
 nugets/
-output/

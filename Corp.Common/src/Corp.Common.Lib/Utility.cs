@@ -1,6 +1,6 @@
-using NativeLibNugetStuff.Wrapper;
+using ThirdPart.ManagedWrapper;
 
-namespace NativeLibNugetStuff.Lib
+namespace Corp.Common.Lib
 {
     public class Utility
     {

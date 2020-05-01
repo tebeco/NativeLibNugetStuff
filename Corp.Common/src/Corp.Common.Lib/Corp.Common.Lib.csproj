@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RestoreSources>$(RestoreSources);../../../nugets</RestoreSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Corp.Common.ThirdPartPackaged" Version="*" />
+    <!--<ProjectReference Include="../Corp.Common.ThirdPartPackaged/Corp.Common.ThirdPartPackaged.csproj" />-->
+  </ItemGroup>
+
+</Project>

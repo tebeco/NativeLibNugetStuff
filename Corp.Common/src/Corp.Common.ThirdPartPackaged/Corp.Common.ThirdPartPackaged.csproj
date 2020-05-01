@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PublishBuildOutput>false</PublishBuildOutput>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="third_part_native.dll" Pack="True" PackagePath="runtimes/win-x64/native" />
+
+    <None Include="ThirdPart.ManagedWrapper.dll" Pack="True" PackagePath="runtimes/win-x64/lib/netstandard2.0" />
+    <None Include="ThirdPart.ManagedWrapper.dll" Pack="True" PackagePath="lib/netstandard2.0" />
+  </ItemGroup>
+
+</Project>

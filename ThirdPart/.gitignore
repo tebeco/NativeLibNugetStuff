@@ -1,0 +1,8 @@
+.vs/
+.vscode/
+bin/
+obj/
+*.user
+
+lib/
+src/third-part-native/target/

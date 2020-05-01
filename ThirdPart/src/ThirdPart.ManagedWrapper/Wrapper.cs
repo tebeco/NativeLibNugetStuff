@@ -1,10 +1,10 @@
 using System.Runtime.InteropServices;
 
-namespace NativeLibNugetStuff.Wrapper
+namespace ThirdPart.ManagedWrapper
 {
     public static class NativeLibrary
     {
-        [DllImport("native.dll")]
+        [DllImport("third_part_native.dll")]
         public static extern int do_stuff(int num);
     }
 }

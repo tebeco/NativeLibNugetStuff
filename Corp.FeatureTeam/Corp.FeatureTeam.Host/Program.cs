@@ -1,7 +1,7 @@
 using System;
-using NativeLibNugetStuff.Lib;
+using Corp.Common.Lib;
 
-namespace NativeLibNugetStuff.Consumer
+namespace Corp.FeatureTeam.Host
 {
     class Program
     {

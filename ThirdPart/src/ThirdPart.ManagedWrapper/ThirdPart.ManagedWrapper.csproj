@@ -3,9 +3,4 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="../NativeLibNugetStuff.Wrapper/NativeLibNugetStuff.Wrapper.csproj" />
-  </ItemGroup>
-
 </Project>

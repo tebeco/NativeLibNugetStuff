@@ -1,0 +1,10 @@
+[package]
+name = "third-part-native"
+version = "0.1.0"
+authors = ["Patrick Westerhoff <PatrickWesterhoff@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
