@@ -6,7 +6,7 @@ namespace Corp.Common.Lib
     {
         public int DoStuff(int num)
         {
-            return NativeLibrary.do_stuff(num);
+            return NativeLibraryWrapper.do_stuff(num);
         }
     }
 }
