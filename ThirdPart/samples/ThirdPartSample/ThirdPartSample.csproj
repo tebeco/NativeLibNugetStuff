@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ThirdPart.ManagedWrapper\ThirdPart.ManagedWrapper.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+  <NativeSourceFolder>../../src/third-part-native/</NativeSourceFolder>
+  <NativeBuildConfiguration>release</NativeBuildConfiguration>
+  </PropertyGroup>
+
+  <Target Name="BuildNativeLib" BeforeTargets="BuildAndCopyNativeLib">
+    <Exec Command="cargo build --manifest-path=&quot;$(NativeSourceFolder)/Cargo.toml&quot; --$(NativeBuildConfiguration)" />
+  </Target>
+
+  <Target Name="BuildAndCopyNativeLib" BeforeTargets="PrepareForRun">
+    <Copy SourceFiles="$(NativeSourceFolder)/target/$(NativeBuildConfiguration)/third_part_native.dll" DestinationFolder="$(OutDir)" />
+  </Target>
+
+</Project>
