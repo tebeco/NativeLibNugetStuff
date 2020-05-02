@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <PropertyGroup>
-  <NativeSourceFolder>../../src/third-part-native/</NativeSourceFolder>
-  <NativeBuildConfiguration>release</NativeBuildConfiguration>
+    <NativeSourceFolder>../../src/third-part-native/</NativeSourceFolder>
+    <NativeBuildConfiguration>release</NativeBuildConfiguration>
   </PropertyGroup>
 
   <Target Name="BuildNativeLib" BeforeTargets="BuildAndCopyNativeLib">
