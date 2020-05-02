@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.Common.ThirdPartPackag
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{BBE94E1A-E356-4809-A2F5-15C54EA828D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartSample", "samples\ThirdPartSample\ThirdPartSample.csproj", "{1F0585F1-AF27-45F9-8F80-318688B1CFF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSample", "samples\LibSample\LibSample.csproj", "{1F0585F1-AF27-45F9-8F80-318688B1CFF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
 using System;
 using Corp.Common.Lib;
 
-namespace ThirdPartSample
+namespace LibSample
 {
     class Program
     {
